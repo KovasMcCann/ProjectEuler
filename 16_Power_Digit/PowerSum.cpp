@@ -1,11 +1,11 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 /*
 Can I use recursion to quickly calculate to the nth power?
 
-If the exponent is a positive integer, multiply the base by itself the number of times indicated by the exponent. 
-    Example: 5^4 = 5 * 5 * 5 * 5 = 625. 
+Use logarithms to detect the pater and sum each digit
 */
 
 long long power(int base, int exponent){
@@ -44,3 +44,11 @@ int main(){
 
     cout << sum;
 }
+
+/*
+Length:
+d =  1 + [n * log_10 b]
+
+
+
+*/
