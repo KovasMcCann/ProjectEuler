@@ -15,6 +15,7 @@ int main(int argc, char** argv){
     cout << "Using:" << fileloc << endl; 
 
     //Create BST
+    //Markov chain???
 
     //How to scan Porperly
 
