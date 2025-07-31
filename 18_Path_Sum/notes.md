@@ -8,6 +8,8 @@
 
 # Creating a Data Structure
 
+ - need to store postition (x,y) and value (z)
+    - [x, y, z]
 
 
 
@@ -42,3 +44,9 @@ max_cost, worst_path = find_worst_path(points)
 print("Greatest cost:", max_cost)
 print("Worst path:", worst_path)
 ```
+
+# Resources
+
+[Combinatorial Optimization](https://www.mathematik.uni-muenchen.de/~kpanagio/KombOpt/book.pdf)
+[Numerical Recipes in C](https://www.cec.uchile.cl/cinetica/pcordero/MC_libros/NumericalRecipesinC.pdf)
+
