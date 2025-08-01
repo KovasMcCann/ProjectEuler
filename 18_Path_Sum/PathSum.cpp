@@ -17,7 +17,6 @@ int tsp(const vector<vector<int>>& tri) {
     return dp[0][0]; // Top element has the max total
 }
 
-
 int main(int argc, char** argv){
     string fileloc;
 
@@ -55,7 +54,6 @@ int main(int argc, char** argv){
         return 1;
     }
 
-    cout << "\nTriangle read from file:\n";
     for (const auto& row : tri) {
         for (int val : row) cout << val << " ";
         cout << "\n";
@@ -63,7 +61,5 @@ int main(int argc, char** argv){
 
     // Compute result
     int result = tsp(tri);
-    cout << "\nMaximum total from top to bottom: " << result << endl;
-
-    //return 0;
+    cout << result << endl;
 }
