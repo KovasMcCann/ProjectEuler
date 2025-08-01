@@ -10,6 +10,8 @@
 
  - need to store postition (x,y) and value (z)
     - [x, y, z]
+    - $y_2 = y_1 + 1$
+    - $x = y$
 
 
 
