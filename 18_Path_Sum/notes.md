@@ -13,8 +13,6 @@
     - $y_2 = y_1 + 1$
     - $x = y$
 
-
-
 # Solving A different Problem
 
 ```python
