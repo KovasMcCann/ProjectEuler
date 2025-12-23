@@ -2,7 +2,6 @@
 #include <vector>
 using namespace std;
 
-
 int n = 10;
 
 int main() {
