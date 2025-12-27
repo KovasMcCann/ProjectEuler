@@ -12,8 +12,6 @@ int main(){
    
    vector<int> numbers(11,1); //defines a vector of one element of value 1 
 
-
-   
    for(int x : numbers){
        cout << x << "\n";
    } 
