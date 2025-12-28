@@ -15,5 +15,4 @@ int main(){
    for(int x : numbers){
        cout << x << "\n";
    } 
-
 }
