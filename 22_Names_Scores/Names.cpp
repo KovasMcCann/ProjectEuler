@@ -34,5 +34,8 @@ int main(int argc, char** argv){
     	}
 
     	Text.close();
-	
+
+	//need to create a sorting algorithm
+	//look up table for alphabetical order
+
 }
