@@ -82,5 +82,5 @@ int main(int argc, char** argv){
 		count++;
 	}
 
-	cout << "---------\n" << total << "\n";
+	cout << "---------\n" << total;
 }
