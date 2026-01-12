@@ -67,7 +67,12 @@ int main(int argc, char** argv){
 
     	Text.close();
 
-	//need to create a sorting algorithm
+	//Quick sort algorithms are the fastests
+
+	while(true){
+		int mid = names[(int)names.size()/2]; //middle element
+
+	
 
 	int count = 1;
 	
@@ -82,5 +87,6 @@ int main(int argc, char** argv){
 		count++;
 	}
 
-	cout << "---------\n" << total;
+	cout << "---------\n" << total << "\n";
+
 }
